@@ -1,0 +1,24 @@
+#+TITLE: table_view
+
+* table_view
+コマンドラインでテーブルを表示するだけ
+
+* example
+#+BEGIN_SRC
+$ table_view ./test.csv
++------+------+
+| HOGE | HUGA |
++------+------+
+|    1 |    2 |
+|    3 |    4 |
++------+------+
+
+$ table_view -t ./data.tsv
++----+----+
+| X  | Y  |
++----+----+
+|  1 |  2 |
+| 85 | 25 |
++----+----+
+
+#+END_SRC
